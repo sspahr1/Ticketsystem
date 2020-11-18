@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="357.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Users">
+   <children>
+      <TextField layoutX="14.0" layoutY="14.0" prefHeight="31.0" prefWidth="100.0" promptText="Titel" AnchorPane.bottomAnchor="312.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="271.0" AnchorPane.topAnchor="14.0" />
+      <TextField layoutX="139.0" layoutY="14.0" prefHeight="31.0" prefWidth="231.0" promptText="Name" AnchorPane.bottomAnchor="312.0" AnchorPane.leftAnchor="139.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0" />
+      <TextField layoutX="14.0" layoutY="66.0" prefHeight="31.0" prefWidth="231.0" promptText="Straße" AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="140.0" AnchorPane.topAnchor="66.0" />
+      <TextField layoutX="270.0" layoutY="66.0" prefHeight="31.0" prefWidth="100.0" promptText="Plz" AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="271.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="66.0" />
+      <TextField layoutX="16.0" layoutY="117.0" prefHeight="31.0" prefWidth="147.0" promptText="Stadt" AnchorPane.bottomAnchor="209.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="222.0" AnchorPane.topAnchor="117.0" />
+      <TextField layoutX="14.0" layoutY="169.0" prefHeight="31.0" prefWidth="150.0" promptText="Land" AnchorPane.bottomAnchor="157.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="221.0" AnchorPane.topAnchor="169.0" />
+      <ComboBox layoutX="15.0" layoutY="222.0" prefHeight="31.0" prefWidth="150.0" promptText="Departments" AnchorPane.bottomAnchor="104.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="221.0" AnchorPane.topAnchor="222.0" />
+      <Button layoutX="14.0" layoutY="310.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" text="Speichern" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="271.0" AnchorPane.topAnchor="310.0" />
+      <Button layoutX="143.0" layoutY="310.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="100.0" text="Löschen" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="143.0" AnchorPane.rightAnchor="142.0" AnchorPane.topAnchor="312.0" />
+   </children>
+</AnchorPane>
